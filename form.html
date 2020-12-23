@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action=" ">                                           <!--inut tag: use to take diff types of data from the user -->
+        <input type="text" name="username" placeholder="name" > <br><!--placeholder attribute use to give info to user to what to write -->   
+        <input type="password" placeholder="pass plz" > <br>    <!--password attribute make the input data to look the star-->
+        <input type="email" placeholder="e-id"> <br>    <!--text used to add any text; in type email necessary to givefurther info-->
+        <input type="color" placeholder="choose color"> <br>    <!--in type color used to add color by selecting from color palate--> 
+        <input type="number" min="10" max="100" placeholder="no."><br>   <!--number type used to add no.-->
+        <!--here name attribute specify the data wit the value given to name -->
+
+        <!--label tag-->
+        <label for="uname">Username:</label>     <!--label tag use to connect the written text with i/p one -->
+        <input type="text" name="usname" id="uname"><br> <!--while input tag alone couldn't make it connected-->
+        <input type="submit">                        <!--submit attribute use to submit the data to the server-->
+
+
+        <!--BUTTONS-->               <!--if we use button tag outside the form tag it will use as a normal button-->
+        <br>    <br>                 <!--or if we use button tag inside form tag then defaultly used as submit button-->   
+        <input type="text" name="name" >
+        <button type="submit">submit</button> <!--we can adjust the type of button using type attribute in it-->
+         <br><br><br>
+         <!--Checkbox type: we can select multiple boxes in checkbox-->
+         <input type="checkbox" name="courses" id="python">
+         <label for="python">Python</label>
+         
+         <input type="checkbox" name="courses" id="java">
+         <label for="java">java</label>
+         
+         <input type="checkbox" name="courses" id="c++">
+         <label for="c++">C++</label><br>
+         <button>done</button><br>
+
+         <!--radio type: radio attribute only aloow to choose only one option-->
+         <input type="radio" name="courses" id="python">
+         <label for="python">Python</label>
+         
+         <input type="radio" name="courses" id="java">
+         <label for="java">java</label>
+         
+         <input type="radio" name="courses" id="c++">
+         <label for="c++">C++</label><br>
+         <button>done</button><br>
+
+
+
+
+        </form>
+        
+
+
+
+    </form>
+</body>
+</html>
